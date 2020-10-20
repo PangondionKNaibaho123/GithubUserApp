@@ -2,4 +2,44 @@
     <string name="app_name">GithubUserApp</string>
     <string name="dummy_username">Username</string>
     <string name="dummy_name">Name</string>
+
+    <string-array name="urlUserPict">
+        <item>https://avatars0.githubusercontent.com/u/63639489?s=400%26u=4f0a6f6e156993eb9f7e1fe74e779083ebaf6b3c%26v=4</item>
+        <item>https://avatars1.githubusercontent.com/u/58965262?s=400%26u=329bb2451c5b0634e999c90ed9d48acfbf062bca%26v=4</item>
+        <item>https://avatars3.githubusercontent.com/u/60460801?s=400%26v=4</item>
+        <item>https://avatars1.githubusercontent.com/u/66982223?s=400%26u=23bc52b287a921f3c16407bd570458e7138f6449%26v=4</item>
+        <item>https://avatars2.githubusercontent.com/u/38648534?s=400%26v=4</item>
+        <item>https://avatars1.githubusercontent.com/u/51378908?s=400%26v=4</item>
+        <item>https://avatars2.githubusercontent.com/u/51202729?s=400%26v=4</item>
+        <item>https://avatars1.githubusercontent.com/u/61932036?s=400%26v=4</item>
+        <item>https://avatars0.githubusercontent.com/u/60635501?s=400%26v=4</item>
+        <item>https://avatars1.githubusercontent.com/u/61128660?s=400%26u=a39e5c0c9ed2d243f59cb7eebe3d26cca0c91683%26v=4</item>
+    </string-array>
+
+    <string-array name="username">
+        <item>SuryaniSiahaan42</item>
+        <item>febianbatubara</item>
+        <item>mosirus</item>
+        <item>sulastambunan</item>
+        <item>sepriana15</item>
+        <item>clarasimanjuntak</item>
+        <item>Alsansim</item>
+        <item>boysitorus</item>
+        <item>nettyshn</item>
+        <item>PangondionKNaibaho123</item>
+    </string-array>
+
+    <string-array name="name">
+        <item>Suryani V Siahaan</item>
+        <item>Febian Batubara</item>
+        <item>Hamonangan Sitorus</item>
+        <item>Sulastri Tambunan</item>
+        <item>Sepriana Panggabean</item>
+        <item>Clara Simanjuntak</item>
+        <item>Aleksander Simbolon</item>
+        <item>Boy Sitorus</item>
+        <item>Netty Siahaan</item>
+        <item>Pangondion K Naibaho</item>
+    </string-array>
+
 </resources>
