@@ -4,6 +4,7 @@
     <string name="dummy_name">Name</string>
     <string name="content_username">Username</string>
     <string name="content_name">Nama User</string>
+    <string name="detail_user">Detail User</string>
 
     <string-array name="urlUserPict">
         <item>https://avatars0.githubusercontent.com/u/63639489?s=400%26u=4f0a6f6e156993eb9f7e1fe74e779083ebaf6b3c%26v=4</item>

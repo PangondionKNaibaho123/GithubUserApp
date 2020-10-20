@@ -2,22 +2,15 @@ package com.zephyr.githubuserapp.layout_controller;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
-import android.os.Parcelable;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-
 import com.zephyr.githubuserapp.R;
 import com.zephyr.githubuserapp.model.UserGithubAdapter;
 import com.zephyr.githubuserapp.model.user_github;
-
 import java.util.ArrayList;
-import java.util.Timer;
-import java.util.TimerTask;
 
 public class MainActivity extends AppCompatActivity {
 

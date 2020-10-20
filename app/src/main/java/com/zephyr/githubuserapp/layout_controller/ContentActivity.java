@@ -1,9 +1,10 @@
 package com.zephyr.githubuserapp.layout_controller;
 
-import android.app.ActionBar;
+
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -15,11 +16,11 @@ public class ContentActivity extends AppCompatActivity {
     public static final String EXTRA_USER = "extra_user";
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_content);
-
 
         ImageView ivContentPicUser = findViewById(R.id.iv_content_picuser);
         TextView tvContentUsername = findViewById(R.id.tv_content_username);

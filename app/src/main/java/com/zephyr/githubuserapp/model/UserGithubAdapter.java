@@ -1,19 +1,14 @@
 package com.zephyr.githubuserapp.model;
 
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.bumptech.glide.Glide;
 import com.zephyr.githubuserapp.R;
-
-import java.net.URL;
 import java.util.ArrayList;
 
 public class UserGithubAdapter extends BaseAdapter{
@@ -72,7 +67,6 @@ public class UserGithubAdapter extends BaseAdapter{
             tvNameGithub = view.findViewById(R.id.tv_name);
         }
         void bind(user_github user_github1){
-            //ivPicUserGithub.setImageResource(user_github1.getUser_pict());
             Glide.with(context).load(user_github1.getUrl_userpict()).into(ivPicUserGithub);
             tvUsernameGithub.setText(user_github1.getUsername());
             tvNameGithub.setText(user_github1.getName());
