@@ -2,6 +2,8 @@
     <string name="app_name">GithubUserApp</string>
     <string name="dummy_username">Username</string>
     <string name="dummy_name">Name</string>
+    <string name="content_username">Username</string>
+    <string name="content_name">Nama User</string>
 
     <string-array name="urlUserPict">
         <item>https://avatars0.githubusercontent.com/u/63639489?s=400%26u=4f0a6f6e156993eb9f7e1fe74e779083ebaf6b3c%26v=4</item>
@@ -14,6 +16,7 @@
         <item>https://avatars1.githubusercontent.com/u/61932036?s=400%26v=4</item>
         <item>https://avatars0.githubusercontent.com/u/60635501?s=400%26v=4</item>
         <item>https://avatars1.githubusercontent.com/u/61128660?s=400%26u=a39e5c0c9ed2d243f59cb7eebe3d26cca0c91683%26v=4</item>
+        <item>https://avatars0.githubusercontent.com/u/37401694?s=400%26v=4</item>
     </string-array>
 
     <string-array name="username">
@@ -27,6 +30,7 @@
         <item>boysitorus</item>
         <item>nettyshn</item>
         <item>PangondionKNaibaho123</item>
+        <item>jenchiw</item>
     </string-array>
 
     <string-array name="name">
@@ -40,6 +44,7 @@
         <item>Boy Sitorus</item>
         <item>Netty Siahaan</item>
         <item>Pangondion K Naibaho</item>
+        <item>Jenny Hutasoit</item>
     </string-array>
 
 </resources>

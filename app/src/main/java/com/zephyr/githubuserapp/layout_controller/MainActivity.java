@@ -3,7 +3,12 @@ package com.zephyr.githubuserapp.layout_controller;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Parcelable;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.zephyr.githubuserapp.R;
@@ -11,6 +16,8 @@ import com.zephyr.githubuserapp.model.UserGithubAdapter;
 import com.zephyr.githubuserapp.model.user_github;
 
 import java.util.ArrayList;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,12 +35,27 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
         getSupportActionBar().setCustomView(R.layout.custom_actionbar);
 
-        ListView userGithubListview = findViewById(R.id.usergithub_listview);
+        final ListView userGithubListview = findViewById(R.id.usergithub_listview);
         userGithubAdapter = new UserGithubAdapter(this);
         userGithubListview.setAdapter(userGithubAdapter);
 
         setData();
         attachData();
+
+        userGithubListview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                //ArrayList<user_github> usersGithub = new ArrayList<>();
+                user_github userGithub = new user_github();
+                userGithub.setUrl_userpict(dataProfilePict[i]);
+                userGithub.setUsername(dataUsername[i]);
+                userGithub.setName(dataName[i]);
+
+                Intent intent = new Intent(MainActivity.this, ContentActivity.class);
+                intent.putExtra(ContentActivity.EXTRA_USER, userGithub);
+                startActivity(intent);
+            }
+        });
 
     }
 
